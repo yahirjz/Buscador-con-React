@@ -11,7 +11,7 @@ export const Layout = () => {
     
     const handleSearch = (query: string ) => {
         addSearchToHistory(query) // Guardamos el historia global 
-        navigate(`/search/${query}`);
+        navigate(`/search/${query}`); // Navegamos a la pagina de resultados
     }
     
     return(

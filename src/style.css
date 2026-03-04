@@ -1,4 +1,17 @@
-/* Bloque */
+body {
+  background-color: #e4e0e0;
+}
+
+/* Layout (Contenedor principal)*/
+.layout {
+  display: flex;
+  flex-direction: column; /* Para poner uno arriba del otro */
+  align-items: center;    /* Centra horizontalmente */
+  justify-content: center;
+  gap: 1rem;              /* Espacio entre el título y el buscador */
+}
+
+/* Bloque de producto */
 .product-card {
   border: 1px solid #eee;
   border-radius: 8px;
